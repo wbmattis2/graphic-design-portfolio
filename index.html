@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Graphic Design</h1>
+        <nav>
+            <a href="index.html" class="anchorToCurrent">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+		<p>Click below to view some samples of work in graphic design by Benny Mattis. Each project page was created in Adobe InDesign to showcase work that was created in other Adobe Creative Cloud applications.</p>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="projects">
+				<button class="project" id="compositing" aria-describedby="compositing-description">
+                    Compositing
+                </button>
+                <button class="project" id="colorization" aria-describedby="colorization-description">
+                    Colorization
+                </button>
+                <button class="project" id="raster-design" aria-describedby="raster-design-description">
+                    Raster Design
+                </button>
+				<button class="project" id="bones-binary" aria-describedby="bones-binary-description">
+                    Type Design ("Bones" and "Binary")
+                </button>
+				<button class="project" id="bubbles-sandwich" aria-describedby="bubbles-sandwich-description">
+                    Type Design ("Bubbles" and "Sandwich")
+                </button>
+            </div>
+            <div class="preview" id="default-preview" style="background-color: #004000;">
+                <div class="description" id="default-description">
+                    An error occurred. Please find navigate to the <a href="contact.html">Contact page</a> to find links to other web pages featuring my work.
+                </div>
+            </div>
+			<div class="preview" id="compositing-preview" style="background-image: url('./images/compositing.png')">
+                <div class="description" id="compositing-description">
+                    This page showcases a composite image created in Adobe Photoshop. <a href="./images/compositing.png" title="View project page: Compositing" target="_blank">View this project page in a new tab</a>
+                </div>
+            </div>
+            <div class="preview" id="colorization-preview" style="background-image: url('./images/colorization.png')">
+                <div class="description" id="colorization-description">
+                    This page showcases a colorized image created in Adobe Photoshop. <a href="./images/colorization.png" title="View project page: Colorization" target="_blank">View this project page in a new tab</a>
+                </div>
+            </div>
+            <div class="preview" id="raster-design-preview" style="background-image: url('./images/raster-design.png')">
+                <div class="description" id="raster-design-description">
+                    This page showcases a raster design created in Adobe Photoshop. <a href="./images/raster-design.png" title="View project page: Raster Design" target="_blank">View this project page in a new tab</a>
+                </div>
+            </div>
+			<div class="preview" id="bones-binary-preview" style="background-image: url('./images/bones-binary.png')">
+                <div class="description" id="bones-binary-description">
+                    This page showcases type designs created in Adobe Photoshop and Adobe Illustrator. The featured words are "bones" and "binary." <a href="./images/bones-binary.png" title="View project page: Type Design (&quot;Bones&quot; and &quot;Binary&quot;)" target="_blank">View this project page in a new tab</a>
+                </div>
+            </div>
+			<div class="preview" id="bubbles-sandwich-preview" style="background-image: url('./images/bubbles-sandwich.png')">
+                <div class="description" id="bubbles-sandwich-description">
+                    This page showcases type designs created in Adobe Photoshop and Adobe Illustrator. The featured words are "bubbles" and "sandwich." <a href="./images/bones-binary.png" title="View project page: Type Design (&quot;Bubbles&quot; and &quot;Sandwich&quot;)" target="_blank">View this project page in a new tab</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright 2023 Benny Mattis
+    </footer>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
